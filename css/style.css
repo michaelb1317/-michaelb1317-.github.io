@@ -62,8 +62,8 @@ li {
 
 /* Section #1 - Opening banner */
 .opening-banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/nyc.jpg); 
-    /*background-image: url(../images/nyc.jpg);*/
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/nyc.jpg); */
+    background-image: url(../images/nyc.jpg);
     background-position: center center no-repeat fixed;
     height: 40em;
     position: relative;
@@ -81,7 +81,7 @@ li {
     color: whitesmoke !important;
     border-bottom: none !important;
 
-    text-shadow: 1px 1px 1px black, 0 0 25px blue, 0 0 5px darkblue;
+    /*text-shadow: 1px 1px 1px black, 0 0 25px blue, 0 0 5px darkblue;*/
 }
 
 /* Section 2 - Main content */
