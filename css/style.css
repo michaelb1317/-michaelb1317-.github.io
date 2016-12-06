@@ -62,8 +62,8 @@ li {
 
 /* Section #1 - Opening banner */
 .opening-banner {
-    /*background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/nyc.jpg); */
-    background-image: url(../images/nyc.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/moraine-lake-canada-wallpaper-3.jpg);
+    /*background-image: url(../images/moraine-lake-canada-wallpaper-3.jpg);*/
     background-position: center center no-repeat fixed;
     background-size: cover !important;
     height: 40em;
@@ -77,8 +77,10 @@ li {
 
 .opening-header {
     text-align: center;
-    font-size: 56px;
-    color: whitesmoke !important;
+    font-size: 60px;
+    font-weight: lighter;
+    font-family: "Courier New";
+    color:  whitesmoke !important;
     border-bottom: none !important;
 
     /*text-shadow: 1px 1px 1px black, 0 0 25px blue, 0 0 5px darkblue;*/
@@ -110,7 +112,7 @@ h1 {
 }
 
 .text-muted {
-    color: #818a91 !important;   
+    color: #818a91 !important;
 }
 
 p {
